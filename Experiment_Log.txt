@@ -1,0 +1,17 @@
+%%%Nov 14th, 2016%%%
+Missing Data Experiment: (RMSE)
+IDVM:
+		k=2, d=10: 2.9539
+		k=2, d=5: 2.8353
+		k=5, d=10: 2.8056
+		k=5, d=8: 2.7966
+		k=5, d=4: 2.7591
+CCWM:		
+		k=1, d=5: 2.7190
+		k=1, d=10: 3.0168
+		k=2, d=10: 2.7939
+		k=1, d=4: 2.6838 (current best)
+Notes:
+1. RMSE results have little different.
+2. d should be around 4, but the correl_matrix/distance_matrix calculation should be larger than d in order to ensure there is no missing value in the d-closest pair when calculating missing value (To guarantee there are d values in missing value filling).
+3. Can add graph or table to illustrate the evaluation result (consider later).

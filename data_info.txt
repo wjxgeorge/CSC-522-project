@@ -1,0 +1,46 @@
+Source:
+           D:\0Õn³ÌNCSU\2016-2017S1\CSC522 Automated Learning and Data Analysis\Project\workspace\pnwrain.50km.daily.4994.nc
+Format:
+           classic
+Dimensions:
+           lat  = 17
+           lon  = 16
+           time = 16801 (UNLIMITED)
+Variables:
+    lat 
+           Size:       17x1
+           Dimensions: lat
+           Datatype:   single
+           Attributes:
+                       title        = 'Latitude'
+                       units        = 'degrees_north'
+                       scale_factor = 1
+                       add_offset   = 0
+    lon 
+           Size:       16x1
+           Dimensions: lon
+           Datatype:   single
+           Attributes:
+                       title        = 'Longitude'
+                       units        = 'degrees_east'
+                       scale_factor = 1
+                       add_offset   = 0
+    time
+           Size:       16801x1
+           Dimensions: time
+           Datatype:   double
+           Attributes:
+                       title        = 'Time'
+                       units        = 'days    since 1949- 1- 1  0: 0: 0'
+                       scale_factor = 1
+                       add_offset   = 0
+    data
+           Size:       16x17x16801
+           Dimensions: lon,lat,time
+           Datatype:   int16
+           Attributes:
+                       long_name     = 'mm/day'
+                       add_offset    = 0
+                       scale_factor  = 0.1
+                       missing_value = 32767
+                       units         = 'mm/day'
